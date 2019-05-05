@@ -2,8 +2,8 @@
 	class Database {
 		private $host = 'localhost';
 		private $db_name = 'restapi';
-		private $username = 'abhi';
-		private $password = 'abhi';
+		private $username = 'root';
+		private $password = '';
 		private $conn;
 
 		public function connect(){
